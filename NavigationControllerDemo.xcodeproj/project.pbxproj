@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		532E4D801C3BECF2003F0CF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4D7F1C3BECF2003F0CF3 /* main.m */; };
-		532E4D831C3BECF2003F0CF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4D821C3BECF2003F0CF3 /* AppDelegate.m */; };
-		532E4D861C3BECF2003F0CF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4D851C3BECF2003F0CF3 /* ViewController.m */; };
+		532E4D831C3BECF2003F0CF3 /* NCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4D821C3BECF2003F0CF3 /* NCDAppDelegate.m */; };
+		532E4D861C3BECF2003F0CF3 /* NCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4D851C3BECF2003F0CF3 /* NCDViewController.m */; };
 		532E4D891C3BECF2003F0CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532E4D871C3BECF2003F0CF3 /* Main.storyboard */; };
 		532E4D8B1C3BECF2003F0CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532E4D8A1C3BECF2003F0CF3 /* Assets.xcassets */; };
 		532E4D8E1C3BECF2003F0CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532E4D8C1C3BECF2003F0CF3 /* LaunchScreen.storyboard */; };
@@ -29,10 +29,10 @@
 /* Begin PBXFileReference section */
 		532E4D7B1C3BECF2003F0CF3 /* NavigationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		532E4D7F1C3BECF2003F0CF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		532E4D811C3BECF2003F0CF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		532E4D821C3BECF2003F0CF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		532E4D841C3BECF2003F0CF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		532E4D851C3BECF2003F0CF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		532E4D811C3BECF2003F0CF3 /* NCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCDAppDelegate.h; sourceTree = "<group>"; };
+		532E4D821C3BECF2003F0CF3 /* NCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCDAppDelegate.m; sourceTree = "<group>"; };
+		532E4D841C3BECF2003F0CF3 /* NCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCDViewController.h; sourceTree = "<group>"; };
+		532E4D851C3BECF2003F0CF3 /* NCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCDViewController.m; sourceTree = "<group>"; };
 		532E4D881C3BECF2003F0CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		532E4D8A1C3BECF2003F0CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		532E4D8D1C3BECF2003F0CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,10 +81,10 @@
 		532E4D7D1C3BECF2003F0CF3 /* NavigationControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				532E4D811C3BECF2003F0CF3 /* AppDelegate.h */,
-				532E4D821C3BECF2003F0CF3 /* AppDelegate.m */,
-				532E4D841C3BECF2003F0CF3 /* ViewController.h */,
-				532E4D851C3BECF2003F0CF3 /* ViewController.m */,
+				532E4D811C3BECF2003F0CF3 /* NCDAppDelegate.h */,
+				532E4D821C3BECF2003F0CF3 /* NCDAppDelegate.m */,
+				532E4D841C3BECF2003F0CF3 /* NCDViewController.h */,
+				532E4D851C3BECF2003F0CF3 /* NCDViewController.m */,
 				532E4D871C3BECF2003F0CF3 /* Main.storyboard */,
 				532E4D8A1C3BECF2003F0CF3 /* Assets.xcassets */,
 				532E4D8C1C3BECF2003F0CF3 /* LaunchScreen.storyboard */,
@@ -213,8 +213,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				532E4D861C3BECF2003F0CF3 /* ViewController.m in Sources */,
-				532E4D831C3BECF2003F0CF3 /* AppDelegate.m in Sources */,
+				532E4D861C3BECF2003F0CF3 /* NCDViewController.m in Sources */,
+				532E4D831C3BECF2003F0CF3 /* NCDAppDelegate.m in Sources */,
 				532E4D801C3BECF2003F0CF3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

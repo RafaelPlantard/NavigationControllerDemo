@@ -6,13 +6,13 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "NCDAppDelegate.h"
 
-@interface AppDelegate ()
+@interface NCDAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation NCDAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

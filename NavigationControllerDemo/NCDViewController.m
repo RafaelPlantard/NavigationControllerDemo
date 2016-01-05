@@ -6,13 +6,13 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "NCDViewController.h"
 
-@interface ViewController ()
+@interface NCDViewController ()
 
 @end
 
-@implementation ViewController
+@implementation NCDViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
