@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LoginController.h
 //  NavigationControllerDemo
 //
 //  Created by Rafael Ferreira on 1/5/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NCDViewController : UIViewController
-
+/*! @brief The view controller for the login page. */
+@interface NCDLoginController : UIViewController
 
 @end

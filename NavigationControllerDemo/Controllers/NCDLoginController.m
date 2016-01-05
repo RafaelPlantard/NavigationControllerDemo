@@ -1,22 +1,22 @@
 //
-//  ViewController.m
+//  LoginController.m
 //  NavigationControllerDemo
 //
 //  Created by Rafael Ferreira on 1/5/16.
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import "NCDViewController.h"
+#import "NCDLoginController.h"
 
-@interface NCDViewController ()
+@interface NCDLoginController ()
 
 @end
 
-@implementation NCDViewController
+@implementation NCDLoginController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {

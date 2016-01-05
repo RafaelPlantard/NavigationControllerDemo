@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		532E4D801C3BECF2003F0CF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4D7F1C3BECF2003F0CF3 /* main.m */; };
 		532E4D831C3BECF2003F0CF3 /* NCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4D821C3BECF2003F0CF3 /* NCDAppDelegate.m */; };
-		532E4D861C3BECF2003F0CF3 /* NCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4D851C3BECF2003F0CF3 /* NCDViewController.m */; };
+		532E4D861C3BECF2003F0CF3 /* NCDRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4D851C3BECF2003F0CF3 /* NCDRootController.m */; };
 		532E4D891C3BECF2003F0CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532E4D871C3BECF2003F0CF3 /* Main.storyboard */; };
 		532E4D8B1C3BECF2003F0CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532E4D8A1C3BECF2003F0CF3 /* Assets.xcassets */; };
 		532E4D8E1C3BECF2003F0CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532E4D8C1C3BECF2003F0CF3 /* LaunchScreen.storyboard */; };
 		532E4D991C3BECF3003F0CF3 /* NavigationControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4D981C3BECF3003F0CF3 /* NavigationControllerDemoTests.m */; };
+		532E4DA71C3BF3D2003F0CF3 /* NCDAddController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4DA51C3BF3D2003F0CF3 /* NCDAddController.m */; };
+		532E4DA81C3BF3D2003F0CF3 /* NCDAddController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 532E4DA61C3BF3D2003F0CF3 /* NCDAddController.xib */; };
+		532E4DAC1C3BF7F8003F0CF3 /* NCDSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4DAA1C3BF7F8003F0CF3 /* NCDSettingsController.m */; };
+		532E4DAD1C3BF7F8003F0CF3 /* NCDSettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 532E4DAB1C3BF7F8003F0CF3 /* NCDSettingsController.xib */; };
+		532E4DB11C3BFAD7003F0CF3 /* NCDLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532E4DAF1C3BFAD7003F0CF3 /* NCDLoginController.m */; };
+		532E4DB21C3BFAD7003F0CF3 /* NCDLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 532E4DB01C3BFAD7003F0CF3 /* NCDLoginController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +37,8 @@
 		532E4D7F1C3BECF2003F0CF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		532E4D811C3BECF2003F0CF3 /* NCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCDAppDelegate.h; sourceTree = "<group>"; };
 		532E4D821C3BECF2003F0CF3 /* NCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCDAppDelegate.m; sourceTree = "<group>"; };
-		532E4D841C3BECF2003F0CF3 /* NCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCDViewController.h; sourceTree = "<group>"; };
-		532E4D851C3BECF2003F0CF3 /* NCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCDViewController.m; sourceTree = "<group>"; };
+		532E4D841C3BECF2003F0CF3 /* NCDRootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCDRootController.h; sourceTree = "<group>"; };
+		532E4D851C3BECF2003F0CF3 /* NCDRootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCDRootController.m; sourceTree = "<group>"; };
 		532E4D881C3BECF2003F0CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		532E4D8A1C3BECF2003F0CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		532E4D8D1C3BECF2003F0CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +46,15 @@
 		532E4D941C3BECF3003F0CF3 /* NavigationControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		532E4D981C3BECF3003F0CF3 /* NavigationControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerDemoTests.m; sourceTree = "<group>"; };
 		532E4D9A1C3BECF3003F0CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532E4DA41C3BF3D2003F0CF3 /* NCDAddController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCDAddController.h; sourceTree = "<group>"; };
+		532E4DA51C3BF3D2003F0CF3 /* NCDAddController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCDAddController.m; sourceTree = "<group>"; };
+		532E4DA61C3BF3D2003F0CF3 /* NCDAddController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NCDAddController.xib; sourceTree = "<group>"; };
+		532E4DA91C3BF7F8003F0CF3 /* NCDSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCDSettingsController.h; sourceTree = "<group>"; };
+		532E4DAA1C3BF7F8003F0CF3 /* NCDSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCDSettingsController.m; sourceTree = "<group>"; };
+		532E4DAB1C3BF7F8003F0CF3 /* NCDSettingsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NCDSettingsController.xib; sourceTree = "<group>"; };
+		532E4DAE1C3BFAD7003F0CF3 /* NCDLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCDLoginController.h; sourceTree = "<group>"; };
+		532E4DAF1C3BFAD7003F0CF3 /* NCDLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCDLoginController.m; sourceTree = "<group>"; };
+		532E4DB01C3BFAD7003F0CF3 /* NCDLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NCDLoginController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +96,11 @@
 		532E4D7D1C3BECF2003F0CF3 /* NavigationControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				532E4DA31C3BF396003F0CF3 /* Controllers */,
 				532E4D811C3BECF2003F0CF3 /* NCDAppDelegate.h */,
 				532E4D821C3BECF2003F0CF3 /* NCDAppDelegate.m */,
-				532E4D841C3BECF2003F0CF3 /* NCDViewController.h */,
-				532E4D851C3BECF2003F0CF3 /* NCDViewController.m */,
+				532E4D841C3BECF2003F0CF3 /* NCDRootController.h */,
+				532E4D851C3BECF2003F0CF3 /* NCDRootController.m */,
 				532E4D871C3BECF2003F0CF3 /* Main.storyboard */,
 				532E4D8A1C3BECF2003F0CF3 /* Assets.xcassets */,
 				532E4D8C1C3BECF2003F0CF3 /* LaunchScreen.storyboard */,
@@ -109,6 +125,22 @@
 				532E4D9A1C3BECF3003F0CF3 /* Info.plist */,
 			);
 			path = NavigationControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		532E4DA31C3BF396003F0CF3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				532E4DA41C3BF3D2003F0CF3 /* NCDAddController.h */,
+				532E4DA51C3BF3D2003F0CF3 /* NCDAddController.m */,
+				532E4DA61C3BF3D2003F0CF3 /* NCDAddController.xib */,
+				532E4DA91C3BF7F8003F0CF3 /* NCDSettingsController.h */,
+				532E4DAA1C3BF7F8003F0CF3 /* NCDSettingsController.m */,
+				532E4DAB1C3BF7F8003F0CF3 /* NCDSettingsController.xib */,
+				532E4DAE1C3BFAD7003F0CF3 /* NCDLoginController.h */,
+				532E4DAF1C3BFAD7003F0CF3 /* NCDLoginController.m */,
+				532E4DB01C3BFAD7003F0CF3 /* NCDLoginController.xib */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,8 +226,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				532E4D8E1C3BECF2003F0CF3 /* LaunchScreen.storyboard in Resources */,
+				532E4DB21C3BFAD7003F0CF3 /* NCDLoginController.xib in Resources */,
 				532E4D8B1C3BECF2003F0CF3 /* Assets.xcassets in Resources */,
 				532E4D891C3BECF2003F0CF3 /* Main.storyboard in Resources */,
+				532E4DAD1C3BF7F8003F0CF3 /* NCDSettingsController.xib in Resources */,
+				532E4DA81C3BF3D2003F0CF3 /* NCDAddController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,9 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				532E4D861C3BECF2003F0CF3 /* NCDViewController.m in Sources */,
+				532E4D861C3BECF2003F0CF3 /* NCDRootController.m in Sources */,
 				532E4D831C3BECF2003F0CF3 /* NCDAppDelegate.m in Sources */,
+				532E4DAC1C3BF7F8003F0CF3 /* NCDSettingsController.m in Sources */,
 				532E4D801C3BECF2003F0CF3 /* main.m in Sources */,
+				532E4DA71C3BF3D2003F0CF3 /* NCDAddController.m in Sources */,
+				532E4DB11C3BFAD7003F0CF3 /* NCDLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
